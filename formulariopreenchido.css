@@ -1,0 +1,47 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #fce9c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.container {
+    text-align: center;
+}
+
+/* Logo */
+.container img {
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+/* Mensagem */
+.mensagem {
+    background-color: #f7931e;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.mensagem h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.mensagem p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
