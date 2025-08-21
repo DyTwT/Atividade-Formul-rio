@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
     <title>Formulário</title>
 </head>
 <body>
@@ -10,11 +11,10 @@
         <img src="logo.png" alt="logo">
     </header>
     <h1>Conecte-se</h1>
-    <section>
     <form action="formulario.html">
         <!--Nome-->
         <label>Nome Completo: </label>
-        <input type="text" name="nome"/>
+        <input placeholder="Insira seu nome completo" required type="text" name="nome"/>
 
         <!--Data de Nescimento-->
         <label>Data de Nascimento: </label>
@@ -22,16 +22,29 @@
 
         <!--Email-->
         <label>Email: </label>
-        <input type="email" name="email"/>
+        <input placeholder="example@gmail.com" required type="email" name="email"/>
 
         <!--Telefone-->
         <label>Telefone: </label>
-        <input type="tel" name="telefone"/>
+        <input placeholder="(XX) XXXXX-XXXX"  type="tel" name="telefone"/>
 
-        <!--Login-->
-        <label>Login: </label>
-        <input type="text" name="login"/>
+        <!--Especialidade-->
+        <label>Especialidade: </label>
+        <input placeholder="Informe sua profissão/especialidade" type="text" name="especialidade">
+
+        <!--Usuário-->
+        <label>Usuário: </label>
+        <input placeholder="Informe seu nome de usuário" required type="text" name="usuario"/>
+
+        <!--Senha-->
+        <label>Senha: </label>
+        <input placeholder="Digite sua senha" required type="password" minlength="4" maxlength="8" name="senha">
+
+        <!--Confirmar Senha-->
+        <label>Confirmar Senha: </label>
+        <input placeholder="Confirme sua senha" required type="password" minlength="4" maxlength="8" name="confirmar">
+
+        <button type="submit">Enviar</button>
     </form>
-</section>
 </body>
 </html>
